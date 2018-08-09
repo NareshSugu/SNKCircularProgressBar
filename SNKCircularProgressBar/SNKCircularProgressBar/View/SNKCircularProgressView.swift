@@ -12,7 +12,7 @@ class SNKCircularProgressView: UIView {
 
     var bgPath: UIBezierPath!
     var shapeLayer: CAShapeLayer!       // Background layer
-    var progressLayer: CAShapeLayer!    // Forground layer
+    var progressLayer: CAShapeLayer!    // Foreground layer
 
     var progress: Float = 0 {
         willSet(newValue)
@@ -23,11 +23,13 @@ class SNKCircularProgressView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         bgPath = UIBezierPath()
+        self.initCircularProgressBar()
     }
     
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         bgPath = UIBezierPath()
+        self.initCircularProgressBar()
     }
 
     private func createCirclePath()
@@ -39,6 +41,22 @@ class SNKCircularProgressView: UIView {
         print(x,y,center)
         bgPath.addArc(withCenter: center, radius: x/CGFloat(2), startAngle: CGFloat(0), endAngle: CGFloat(6.28), clockwise: true)
         bgPath.close()
+    }
+    
+    private func createBackgroundShapelayer()
+    {
+        
+    }
+    private func createForegroundProgressLayer()
+    {
+        
+    }
+
+    func initCircularProgressBar()
+    {
+        createCirclePath()
+        createBackgroundShapelayer()
+        createForegroundProgressLayer()
     }
 
 }
