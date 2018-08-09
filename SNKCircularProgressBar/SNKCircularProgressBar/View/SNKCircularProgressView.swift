@@ -17,7 +17,7 @@ class SNKCircularProgressView: UIView {
     var progress: Float = 0 {
         willSet(newValue)
         {
-            //observes for change in value of progress variable and set the new value to it here.
+            progressLayer.strokeEnd = CGFloat(newValue)
         }
     }
     override init(frame: CGRect) {
