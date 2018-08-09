@@ -13,6 +13,8 @@
 		CA79BA52211C0A0D0040BF0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA79BA51211C0A0D0040BF0D /* Assets.xcassets */; };
 		CA79BA55211C0A0D0040BF0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA79BA53211C0A0D0040BF0D /* LaunchScreen.storyboard */; };
 		CA79BA60211C0A0D0040BF0D /* SNKCircularProgressBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA79BA5F211C0A0D0040BF0D /* SNKCircularProgressBarTests.swift */; };
+		CA79BA6B211C0CF60040BF0D /* SNKCircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA79BA6A211C0CF60040BF0D /* SNKCircularProgressView.swift */; };
+		CA79BA6C211C0CF60040BF0D /* SNKCircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA79BA6A211C0CF60040BF0D /* SNKCircularProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 		CA79BA5B211C0A0D0040BF0D /* SNKCircularProgressBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNKCircularProgressBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA79BA5F211C0A0D0040BF0D /* SNKCircularProgressBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNKCircularProgressBarTests.swift; sourceTree = "<group>"; };
 		CA79BA61211C0A0D0040BF0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA79BA6A211C0CF60040BF0D /* SNKCircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SNKCircularProgressView.swift; path = View/SNKCircularProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 				CA79BA51211C0A0D0040BF0D /* Assets.xcassets */,
 				CA79BA53211C0A0D0040BF0D /* LaunchScreen.storyboard */,
 				CA79BA56211C0A0D0040BF0D /* Info.plist */,
+				CA79BA6A211C0CF60040BF0D /* SNKCircularProgressView.swift */,
 			);
 			path = SNKCircularProgressBar;
 			sourceTree = "<group>";
@@ -199,6 +203,7 @@
 			files = (
 				CA79BA4D211C0A0B0040BF0D /* ViewController.swift in Sources */,
 				CA79BA4B211C0A0B0040BF0D /* AppDelegate.swift in Sources */,
+				CA79BA6B211C0CF60040BF0D /* SNKCircularProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA79BA60211C0A0D0040BF0D /* SNKCircularProgressBarTests.swift in Sources */,
+				CA79BA6C211C0CF60040BF0D /* SNKCircularProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
