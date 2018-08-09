@@ -23,6 +23,19 @@ class SNKCircularProgressView: UIView {
             progressLayer.strokeEnd = CGFloat(newValue)
         }
     }
+    
+    @IBInspectable public var progressForegroundStrokeColor: UIColor? = nil {
+        didSet {
+            progressLayer.strokeColor = progressForegroundStrokeColor?.cgColor
+        }
+    }
+
+    @IBInspectable public var progressBackgroundStrokeColor: UIColor? = nil {
+        didSet {
+            shapeLayer.strokeColor = progressBackgroundStrokeColor?.cgColor
+        }
+    }
+
     override init(frame: CGRect) {
         super.init(frame: frame)
     }
@@ -57,7 +70,6 @@ class SNKCircularProgressView: UIView {
         shapeLayer.path = bgPath.cgPath
         shapeLayer.lineWidth = self.thiknessShapeLayer
         shapeLayer.fillColor = nil
-        shapeLayer.strokeColor = UIColor.lightGray.cgColor
         
         self.layer.addSublayer(shapeLayer)
     }
@@ -68,7 +80,6 @@ class SNKCircularProgressView: UIView {
         progressLayer.lineCap = kCALineCapRound
         progressLayer.lineWidth = self.thiknessProgressLayer
         progressLayer.fillColor = nil
-        progressLayer.strokeColor = UIColor.red.cgColor
         progressLayer.strokeEnd = 0.0
         
         self.layer.addSublayer(progressLayer)

@@ -19,7 +19,11 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        circularProgressView = SNKCircularProgressView (frame: circularProgressBarView.frame, radius: 100, shapeLayerThikness: 5, progressLayerThikness: 20)
+        // customize radius and thikness and color here
+        circularProgressView = SNKCircularProgressView (frame: circularProgressBarView.frame, radius: 80, shapeLayerThikness: 3, progressLayerThikness: 15)
+        circularProgressView.progressForegroundStrokeColor = UIColor.blue
+        circularProgressView.progressBackgroundStrokeColor = UIColor.gray
+
         self.view.addSubview(circularProgressView)
 
         progressIncrement = 1.0/duration
