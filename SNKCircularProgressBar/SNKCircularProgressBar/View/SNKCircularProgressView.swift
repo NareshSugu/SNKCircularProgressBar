@@ -45,11 +45,25 @@ class SNKCircularProgressView: UIView {
     
     private func createBackgroundShapelayer()
     {
+        shapeLayer = CAShapeLayer()
+        shapeLayer.path = bgPath.cgPath
+        shapeLayer.lineWidth = 15
+        shapeLayer.fillColor = nil
+        shapeLayer.strokeColor = UIColor.lightGray.cgColor
         
+        self.layer.addSublayer(shapeLayer)
     }
     private func createForegroundProgressLayer()
     {
+        progressLayer = CAShapeLayer()
+        progressLayer.path = bgPath.cgPath
+        progressLayer.lineCap = kCALineCapRound
+        progressLayer.lineWidth = 15
+        progressLayer.fillColor = nil
+        progressLayer.strokeColor = UIColor.red.cgColor
+        progressLayer.strokeEnd = 0.0
         
+        self.layer.addSublayer(progressLayer)
     }
 
     func initCircularProgressBar()
