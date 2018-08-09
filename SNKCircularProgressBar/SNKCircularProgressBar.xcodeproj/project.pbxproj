@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA79BA4B211C0A0B0040BF0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA79BA4A211C0A0B0040BF0D /* AppDelegate.swift */; };
+		CA79BA4D211C0A0B0040BF0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA79BA4C211C0A0B0040BF0D /* ViewController.swift */; };
+		CA79BA50211C0A0B0040BF0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA79BA4E211C0A0B0040BF0D /* Main.storyboard */; };
+		CA79BA52211C0A0D0040BF0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA79BA51211C0A0D0040BF0D /* Assets.xcassets */; };
+		CA79BA55211C0A0D0040BF0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA79BA53211C0A0D0040BF0D /* LaunchScreen.storyboard */; };
+		CA79BA60211C0A0D0040BF0D /* SNKCircularProgressBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA79BA5F211C0A0D0040BF0D /* SNKCircularProgressBarTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA79BA5C211C0A0D0040BF0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA79BA3F211C0A0B0040BF0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA79BA46211C0A0B0040BF0D;
+			remoteInfo = SNKCircularProgressBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA79BA47211C0A0B0040BF0D /* SNKCircularProgressBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNKCircularProgressBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA79BA4A211C0A0B0040BF0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA79BA4C211C0A0B0040BF0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA79BA4F211C0A0B0040BF0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA79BA51211C0A0D0040BF0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA79BA54211C0A0D0040BF0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA79BA56211C0A0D0040BF0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA79BA5B211C0A0D0040BF0D /* SNKCircularProgressBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNKCircularProgressBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA79BA5F211C0A0D0040BF0D /* SNKCircularProgressBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNKCircularProgressBarTests.swift; sourceTree = "<group>"; };
+		CA79BA61211C0A0D0040BF0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA79BA44211C0A0B0040BF0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA79BA58211C0A0D0040BF0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA79BA3E211C0A0B0040BF0D = {
+			isa = PBXGroup;
+			children = (
+				CA79BA49211C0A0B0040BF0D /* SNKCircularProgressBar */,
+				CA79BA5E211C0A0D0040BF0D /* SNKCircularProgressBarTests */,
+				CA79BA48211C0A0B0040BF0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA79BA48211C0A0B0040BF0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA79BA47211C0A0B0040BF0D /* SNKCircularProgressBar.app */,
+				CA79BA5B211C0A0D0040BF0D /* SNKCircularProgressBarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA79BA49211C0A0B0040BF0D /* SNKCircularProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				CA79BA4A211C0A0B0040BF0D /* AppDelegate.swift */,
+				CA79BA4C211C0A0B0040BF0D /* ViewController.swift */,
+				CA79BA4E211C0A0B0040BF0D /* Main.storyboard */,
+				CA79BA51211C0A0D0040BF0D /* Assets.xcassets */,
+				CA79BA53211C0A0D0040BF0D /* LaunchScreen.storyboard */,
+				CA79BA56211C0A0D0040BF0D /* Info.plist */,
+			);
+			path = SNKCircularProgressBar;
+			sourceTree = "<group>";
+		};
+		CA79BA5E211C0A0D0040BF0D /* SNKCircularProgressBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA79BA5F211C0A0D0040BF0D /* SNKCircularProgressBarTests.swift */,
+				CA79BA61211C0A0D0040BF0D /* Info.plist */,
+			);
+			path = SNKCircularProgressBarTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA79BA46211C0A0B0040BF0D /* SNKCircularProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA79BA64211C0A0D0040BF0D /* Build configuration list for PBXNativeTarget "SNKCircularProgressBar" */;
+			buildPhases = (
+				CA79BA43211C0A0B0040BF0D /* Sources */,
+				CA79BA44211C0A0B0040BF0D /* Frameworks */,
+				CA79BA45211C0A0B0040BF0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SNKCircularProgressBar;
+			productName = SNKCircularProgressBar;
+			productReference = CA79BA47211C0A0B0040BF0D /* SNKCircularProgressBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA79BA5A211C0A0D0040BF0D /* SNKCircularProgressBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA79BA67211C0A0D0040BF0D /* Build configuration list for PBXNativeTarget "SNKCircularProgressBarTests" */;
+			buildPhases = (
+				CA79BA57211C0A0D0040BF0D /* Sources */,
+				CA79BA58211C0A0D0040BF0D /* Frameworks */,
+				CA79BA59211C0A0D0040BF0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA79BA5D211C0A0D0040BF0D /* PBXTargetDependency */,
+			);
+			name = SNKCircularProgressBarTests;
+			productName = SNKCircularProgressBarTests;
+			productReference = CA79BA5B211C0A0D0040BF0D /* SNKCircularProgressBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA79BA3F211C0A0B0040BF0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = SNK;
+				TargetAttributes = {
+					CA79BA46211C0A0B0040BF0D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					CA79BA5A211C0A0D0040BF0D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CA79BA46211C0A0B0040BF0D;
+					};
+				};
+			};
+			buildConfigurationList = CA79BA42211C0A0B0040BF0D /* Build configuration list for PBXProject "SNKCircularProgressBar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA79BA3E211C0A0B0040BF0D;
+			productRefGroup = CA79BA48211C0A0B0040BF0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA79BA46211C0A0B0040BF0D /* SNKCircularProgressBar */,
+				CA79BA5A211C0A0D0040BF0D /* SNKCircularProgressBarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA79BA45211C0A0B0040BF0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA79BA55211C0A0D0040BF0D /* LaunchScreen.storyboard in Resources */,
+				CA79BA52211C0A0D0040BF0D /* Assets.xcassets in Resources */,
+				CA79BA50211C0A0B0040BF0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA79BA59211C0A0D0040BF0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA79BA43211C0A0B0040BF0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA79BA4D211C0A0B0040BF0D /* ViewController.swift in Sources */,
+				CA79BA4B211C0A0B0040BF0D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA79BA57211C0A0D0040BF0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA79BA60211C0A0D0040BF0D /* SNKCircularProgressBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA79BA5D211C0A0D0040BF0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA79BA46211C0A0B0040BF0D /* SNKCircularProgressBar */;
+			targetProxy = CA79BA5C211C0A0D0040BF0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA79BA4E211C0A0B0040BF0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA79BA4F211C0A0B0040BF0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA79BA53211C0A0D0040BF0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA79BA54211C0A0D0040BF0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA79BA62211C0A0D0040BF0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA79BA63211C0A0D0040BF0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA79BA65211C0A0D0040BF0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SNKCircularProgressBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.snk.SNKCircularProgressBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA79BA66211C0A0D0040BF0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SNKCircularProgressBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.snk.SNKCircularProgressBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA79BA68211C0A0D0040BF0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SNKCircularProgressBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.snk.SNKCircularProgressBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SNKCircularProgressBar.app/SNKCircularProgressBar";
+			};
+			name = Debug;
+		};
+		CA79BA69211C0A0D0040BF0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SNKCircularProgressBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.snk.SNKCircularProgressBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SNKCircularProgressBar.app/SNKCircularProgressBar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA79BA42211C0A0B0040BF0D /* Build configuration list for PBXProject "SNKCircularProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA79BA62211C0A0D0040BF0D /* Debug */,
+				CA79BA63211C0A0D0040BF0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA79BA64211C0A0D0040BF0D /* Build configuration list for PBXNativeTarget "SNKCircularProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA79BA65211C0A0D0040BF0D /* Debug */,
+				CA79BA66211C0A0D0040BF0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA79BA67211C0A0D0040BF0D /* Build configuration list for PBXNativeTarget "SNKCircularProgressBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA79BA68211C0A0D0040BF0D /* Debug */,
+				CA79BA69211C0A0D0040BF0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA79BA3F211C0A0B0040BF0D /* Project object */;
+}
