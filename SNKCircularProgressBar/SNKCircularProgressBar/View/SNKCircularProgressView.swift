@@ -13,6 +13,9 @@ class SNKCircularProgressView: UIView {
     var bgPath: UIBezierPath!
     var shapeLayer: CAShapeLayer!       // Background layer
     var progressLayer: CAShapeLayer!    // Foreground layer
+    var radius: CGFloat!
+    var thiknessShapeLayer: CGFloat!
+    var thiknessProgressLayer: CGFloat!
 
     var progress: Float = 0 {
         willSet(newValue)
@@ -22,12 +25,17 @@ class SNKCircularProgressView: UIView {
     }
     override init(frame: CGRect) {
         super.init(frame: frame)
-        bgPath = UIBezierPath()
-        self.initCircularProgressBar()
     }
     
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+    }
+    
+    public init(frame: CGRect, radius: CGFloat, shapeLayerThikness: CGFloat, progressLayerThikness: CGFloat) {
+        super.init(frame: frame)
+        self.radius = radius
+        self.thiknessShapeLayer = shapeLayerThikness
+        self.thiknessProgressLayer = progressLayerThikness
         bgPath = UIBezierPath()
         self.initCircularProgressBar()
     }
@@ -39,7 +47,7 @@ class SNKCircularProgressView: UIView {
         let y = self.frame.height/2
         let center = CGPoint(x: x, y: y)
         print(x,y,center)
-        bgPath.addArc(withCenter: center, radius: x/CGFloat(2), startAngle: CGFloat(0), endAngle: CGFloat(6.28), clockwise: true)
+        bgPath.addArc(withCenter: center, radius: self.radius, startAngle: CGFloat(0), endAngle: CGFloat(6.28), clockwise: true)
         bgPath.close()
     }
     
@@ -47,7 +55,7 @@ class SNKCircularProgressView: UIView {
     {
         shapeLayer = CAShapeLayer()
         shapeLayer.path = bgPath.cgPath
-        shapeLayer.lineWidth = 15
+        shapeLayer.lineWidth = self.thiknessShapeLayer
         shapeLayer.fillColor = nil
         shapeLayer.strokeColor = UIColor.lightGray.cgColor
         
@@ -58,7 +66,7 @@ class SNKCircularProgressView: UIView {
         progressLayer = CAShapeLayer()
         progressLayer.path = bgPath.cgPath
         progressLayer.lineCap = kCALineCapRound
-        progressLayer.lineWidth = 15
+        progressLayer.lineWidth = self.thiknessProgressLayer
         progressLayer.fillColor = nil
         progressLayer.strokeColor = UIColor.red.cgColor
         progressLayer.strokeEnd = 0.0
