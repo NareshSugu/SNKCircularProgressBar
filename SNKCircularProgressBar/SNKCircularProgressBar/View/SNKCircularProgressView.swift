@@ -33,6 +33,12 @@ class SNKCircularProgressView: UIView {
     private func createCirclePath()
     {
         //Draw circle
+        let x = self.frame.width/2
+        let y = self.frame.height/2
+        let center = CGPoint(x: x, y: y)
+        print(x,y,center)
+        bgPath.addArc(withCenter: center, radius: x/CGFloat(2), startAngle: CGFloat(0), endAngle: CGFloat(6.28), clockwise: true)
+        bgPath.close()
     }
 
 }
